@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:id="@+id/popwindown_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/store_share"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_remove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:drawableLeft="@mipmap/remove"
+            android:drawablePadding="5dp"
+            android:text="删除"
+            android:textSize="15dp"
+            android:textColor="#99000000" />
+
+        <TextView
+            android:id="@+id/tv_rename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:drawableLeft="@mipmap/remane"
+            android:drawablePadding="5dp"
+            android:text="重命名"
+            android:textColor="#99000000" />
+
+        <LinearLayout
+            android:id="@+id/ll_goup"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="18dp"
+
+                android:layout_height="18dp"
+                android:src="@mipmap/shangchuang" />
+
+            <TextView
+                android:id="@+id/tv_goup"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="上传"
+                android:textColor="#99000000" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

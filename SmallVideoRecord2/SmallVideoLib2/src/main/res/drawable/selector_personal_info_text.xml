@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:text="开始"  android:state_selected="false"/>
+    <item android:text="停止"  android:state_selected="true"/>
+</selector>
